@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Montserrat+Alternates:wght@100&display=swap);
+:root {
+    --background:#e79aba;
+    --primary:#e45aba;
+    --secondary:#e90aba;
+    --text-black:#1a0b16;
+    --text-white:#eecee5; 
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "Montserrat+Alternates", sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header {
+    background: var(--primary);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    padding: 0px 30px 0px 30px; 
+}
+.navbar,
+.navbar-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:30px;
+}
+.navbar {
+    gap: 150px;
+}
+
+.navbar-list a {
+    color: var(--text-black);
+    font-size: 20px;
+}
+.navbar-list li:last-child > a {
+    color: var(--text-white);
+    font-weight: 500;
+}
+.logo {
+    width: 250px;
+    height: 250px;
+    padding: 30px;
+}
+.vercel-icon {
+    width: 65px;
+    height: 65px;
+}
+.github-icon {
+    width: 65px;
+    height: 65px;
+}
+.linkedin-icon {
+    width: 65px;
+    height: 65px;
+}
+.contact-logos {
+    gap: 30px;
+    margin-right: 100px;
+    padding: 30px;
+}
